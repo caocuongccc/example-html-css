@@ -1,0 +1,299 @@
+.title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    margin: auto;
+    line-height: 48px;
+    text-align: center;
+    color: #0A0531;
+}
+.content {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 133.34%;
+    text-align: center;
+    color: #9D9BA0;
+}
+
+.footer-menu ul {
+    text-align: center;
+    width: max-content;
+    margin: auto;
+}
+.footer-menu >ul > li {
+    list-style: none;
+    display: flex;
+    margin: auto;
+    width: max-content;
+}
+.footer-menu > ul > li .privacy-menu {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 17px;
+    color: #030305;
+}
+.footer-menu ul.Policy > li  {    
+    margin: 12px;
+    list-style: disc;
+}.footer-menu ul.Policy > li:first-child  {
+    list-style: none;
+ }
+ .main-content{
+    display: block;
+    padding: 20px;
+    width: 100%;box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.05);
+ }
+ .left-title-header{
+    display: flex;
+    align-items: center;
+ } .left-title-header img{
+    margin-right: 12px;
+ }
+ .footer-menu ul.Policy {
+    display: contents;
+ }
+ .footer-menu ul.Policy a {
+    color: #030305;
+    text-decoration: none;
+ }.navbar-light .navbar-nav .nav-link {
+    color: black;
+}
+ .iputgroup{
+    position: relative;
+    
+ }
+ .tableAudioheader{
+    width: 100%;margin-bottom:0;
+    padding-left: 0;
+    padding:  0px 20px;background: #F5F7F9;
+    padding-right: 40px
+ }
+ .tableAudioheader li span{
+    padding-left: 0px;
+ }
+ .tableAudioheader li{
+    padding-left: 0;background: #F5F7F9;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    font-weight: 500;
+    padding: 14px 16px;
+    font-size: 14px;
+    text-align: left;
+    line-height: 133.34%;
+    /* background: #F5F7F9; */
+    border-radius: 5px 5px 0px 0px;
+    color: #868F9C;
+   
+ }
+
+ .right-content-listaudio .body{
+    
+    padding: 0px;   
+       padding-top: 20px;border: 0.5px solid #BABBBC;
+     border-radius: 0px 0px 5px 5px; border-top: none; 
+     padding-right: 15px;    padding-bottom: 20px;
+ }
+
+/* width */
+.right-content-listaudio .scrollbar{
+    height: 310px;
+    overflow: auto;
+}
+.left-content-play{
+    display: flex;
+    width: 241px;
+    height: 220px;
+    flex-direction: column;
+    align-items: center;
+}
+.left-content-play img.img-main{
+    width: 241px;
+    height: 220px;
+    border-radius: 6px;
+    object-fit: cover;
+    margin-bottom: 10px;
+} .left-content-play span{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 133.34%;
+    /* or 19px */
+    
+    
+    color: #000000;
+    
+    margin-bottom: 10px;
+}.left-content-play  .iputgroup .icon-style {
+   left: auto;
+    right: 10px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    display: flex;
+    align-items: center;
+ 
+}.left-content-play  .iputgroup input.form-control {
+    padding-right: 30px;
+    padding-left: 10px;
+ }
+.right-content-listaudio .scrollbar::-webkit-scrollbar {
+    width: 4px;
+    border-radius: 5px;
+    margin-right: 8px;
+  }
+  
+  /* Track */
+  .right-content-listaudio .scrollbar::-webkit-scrollbar-track {
+    background: #fff; border-radius: 5px; margin-right: 8px;
+  }
+  
+  /* Handle */
+  .right-content-listaudio .scrollbar::-webkit-scrollbar-thumb {
+    background:  rgba(0, 0, 0, 0.3); border-radius: 5px; margin-right: 8px;
+  }
+  
+  /* Handle on hover */
+  .right-content-listaudio .scrollbar::-webkit-scrollbar-thumb:hover {
+    background:  rgba(0, 0, 0, 0.3); border-radius: 5px;
+  }
+
+
+
+ .tableAudio{
+    width: 100%;
+    padding-left: 0; padding:  0px 20px;
+  
+ } .tableAudio li p{ margin-bottom: 0px;}
+ .tableAudio li{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    background: #F4F4F4;
+    list-style: none;
+    padding: 14px 16px;
+    margin-bottom: 10px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;align-items: center;
+    line-height: 17px;
+    color: #434343;
+    
+ }
+
+ .iputgroup .icon-style{
+    position: absolute;
+    left: 23px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    display: flex;
+    align-items: center;
+ }
+ .iputgroup .icon-style img{
+    margin-right: 10px;
+ }
+ .title {
+    margin-top: 116px;
+ }
+ .iputgroup input.form-control{
+padding-left: 60px;
+ }
+.footer {
+    background: #FFFFFF;
+    box-shadow: inset 0px 1px 0px rgba(0, 0, 0, 0.05);
+    position: absolute;
+    bottom: 0;    width: 100%;
+    padding: 15px;
+}
+.copyright {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 17px;
+    /* identical to box height */
+
+
+    color: rgba(3, 3, 5, 0.5);
+}
+.btn-download {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+
+    width: 156px;
+    height: 55px;
+    left: 1064px;
+    top: 323px;
+
+    background: #6D59F6;
+    border-radius: 4px;
+}
+.btn-apple {
+    left: 0%;
+    right: 53.93%;
+    top: 2.36%;
+    bottom: 0%;
+    width: 93.7px;
+    height: 34.1px;
+    /* Background/White */
+    margin-right: 10px;
+    background: #FFFFFF;
+    /* Background/Black Background */
+
+    border-radius: 3px;
+}
+.btn-google {
+    left: 53.93%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    width: 93.7px;
+    height: 34.1px;
+    /* Background/White */
+
+    background: #FFFFFF;
+    /* Background/Black Background */
+
+    border-radius: 3px;
+}
+ul.navbar-nav.mr-auto.float-right {
+    align-items: center;
+}
+
+.name-rs {
+    display: flex;
+}
+.img-rs {
+    margin-right: 5px;height: max-content;
+}
+.type-rs {
+    margin-right: 5px;
+}
+.audio-rs {
+    
+}
+.download-rs {
+    color: #6D59F6;
+    width: 73px;
+    height: 24px;
+    background: rgba(109, 89, 246, 0.1);
+    border-radius: 4px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 6px 5px 5px;
+    gap: 4px;
+
+}
+.download-rs a{
+    color: #6D59F6;
+}
+
