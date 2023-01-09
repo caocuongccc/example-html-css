@@ -86,6 +86,7 @@ div#navbarSupportedContent {
     width: 100%;
     margin-bottom: 20px;
     box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.05);
+    border: 0.5px solid #BABBBC;
 }
 
 .left-title-header {
@@ -385,7 +386,9 @@ ul.navbar-nav.mr-auto.float-right {
 }
 
 .audio-rs {}
-
+#data-content-about {
+    min-height: calc(100vh - 200px);
+}
 .download-rs {
     color: #6D59F6;
     width: 73px;
@@ -403,6 +406,16 @@ ul.navbar-nav.mr-auto.float-right {
 
 .download-rs a {
     color: #6D59F6;
+}
+
+@media (max-width: 991px) {
+    .left-content-play {
+
+        height: auto;
+        margin-bottom: 10px
+    }.right-content-listaudio{
+        padding-left: 15px
+    }
 }
 
 @media (max-width: 768px) {
