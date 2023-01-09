@@ -432,6 +432,14 @@ ul.navbar-nav.mr-auto.float-right {
     }
 }
 
+@media (max-width: 576px) {
+  .col-download {
+        margin: auto;
+        margin-top: 15px;
+    }
+
+
+}
 @media (max-width: 768px) {
     .right-content-listaudio {
         padding-left: 15px !important;
@@ -448,11 +456,7 @@ ul.navbar-nav.mr-auto.float-right {
         height: auto;
     }
 
-    .col-download {
-        margin: auto;
-        margin-top: 15px;
-    }
-
+  
     .form-input-download {
         margin: auto;
         padding-left: 0;
